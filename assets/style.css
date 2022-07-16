@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body{
+    background-image: url(./dairyfarm.jpg);
+    /* background-position: relative; */
+    background-size: cover;
+}
+.header{
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+}
+
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav img{
+    width: 20%;
+    height: 20%;
+    padding-bottom: 30px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+      
+}
+.nav-links ul li a{
+    color: blue;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background: orange;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+
+}
+.page2 {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    padding: 70px;
+    font-size: 30px;
+    color: greenyellow;
+    
+}
+.page2 h1{
+    color: red;
+}

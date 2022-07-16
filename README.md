@@ -1,5 +1,5 @@
 # Dairy Business
-### Week three project about Daniry Business Website
+### Week three project about Dairyy Business Website
 ##### By DuncanLangat6515
 ## Table of Content
 + [Description](#Description)
