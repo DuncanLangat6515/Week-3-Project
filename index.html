@@ -9,7 +9,8 @@
     <title>Dairy Business</title>
 </head>
  <body> 
-    <div class="body1">
+    <section>
+      <div class="body1">
         <div class="header">
             <nav>
                 <a href="index.html"><img src="assets/dairylogo.webp" alt=""></a>
@@ -30,9 +31,9 @@
 
       
         </section>
-    </div>
+      </div>
 
-    <div class="form">
+      <div class="form">
         <h2 id="title">My Dairy Monitor</h2>
 
         <div class="Produce">
@@ -42,13 +43,60 @@
             <div class="formData">
                 
                 <form action="submit" onsubmit="produceReport();">
-                    <h3>Fill and submit the form bellow to get a summary of your income</h3> 
+                    <h3>Fill and submit our income form</h3> 
                     <div id="sheds">
                         <label for="shed_A">Shed_A: Milk (Litres)</label>
                         <input id="shed_A" type="number" min="0" required>
                     </div>
+                    <div id="sheds">
+                        <label for="shed_B">Shed_B: Milk (Litres)</label>
+                        <input id="shed_B" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_C">Shed_C: Milk (Litres)</label>
+                        <input id="shed_C" type="number" min="0" required>
+                    </div>
+            
+                    <div id="sheds">
+                        <label for="shed_D">Shed_D: Milk (Litres)</label>
+                        <input id="shed_D" type="number" min="0" required>
+                    </div>
+            
+                    <button type="submit">Submit</button>
+                    <button id="cancel" type="reset" onclick="resetPage();">cancel</button>
+                    
+                </form>
             </div>
+             <!-- OUTPUT RESULTS -->
+            
+             <div class="outputDisplay">
+                <h3 id="displayTitle">Production Summary</h3>
+                <hr>
+                <p id="outputData"></p>
+    
+                <!-- OPTIONAL CHALLENGE -->
+            </div>
+        </div>
+    
+         <!-- OUTPUT RESULTS -->
+            
+         <div class="outputDisplay">
+            <h3 id="displayTitle">Production Summary</h3>
+            <hr>
+            <p id="outputData"></p>
+
+            <!-- OPTIONAL CHALLENGE -->
+        </div>
     </div>
-<script src="assets/index.js"></script>
- </body>
+
+    
+</section>
+
+
+<script src="assets/index.js"></script>>
+
+</body>
 </html>
+    
+   
