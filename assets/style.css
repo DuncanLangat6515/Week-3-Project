@@ -7,8 +7,9 @@
 }
 body{
     background-image: url(./dairyfarm.jpg);
-    /* background-position: relative; */
-    background-size: cover;
+     background-position: absolute;
+     background-size:cover;
+    
 }
 .header{
     height: 135px;
@@ -47,6 +48,7 @@ nav img{
     text-decoration: none;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
 
 }
 .nav-links ul li::after{
