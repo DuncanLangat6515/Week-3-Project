@@ -79,3 +79,8 @@ nav img{
 .page2 p{
     margin: 30px;
 }
+.form{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
