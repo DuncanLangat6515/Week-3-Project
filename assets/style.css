@@ -5,10 +5,11 @@
     text-decoration: none;
 
 }
-body{
+.body1{
     background-image: url(./dairyfarm.jpg);
      background-position: absolute;
-     background-size:cover;
+     background-size: cover;
+     height: 900px;
     
 }
 .header{
@@ -84,3 +85,10 @@ nav img{
     font-family: 'Poppins', sans-serif;
     text-align: center;
 }
+/* .producce{
+    
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+         */
